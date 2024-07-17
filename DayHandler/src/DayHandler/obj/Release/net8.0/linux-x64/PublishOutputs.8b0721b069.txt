@@ -1,0 +1,9 @@
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/DayHandler.deps.json
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/DayHandler.runtimeconfig.json
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/DayHandler.pdb
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/Amazon.Lambda.Core.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/Amazon.Lambda.Serialization.SystemTextJson.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/AWSSDK.Core.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/AWSSDK.DynamoDBv2.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/Newtonsoft.Json.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/lambda/DayHandler.dll
