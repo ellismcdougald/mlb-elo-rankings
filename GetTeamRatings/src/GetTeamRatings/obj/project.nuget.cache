@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "cSqCCvvc8WR7Y0hEsG+BfAs6+rl7VyLh45PRdGl6ihp7YKJw1D2MC1h16uvbBzQr/mJ4mPWhVRjFSvH7sQ1PGg==",
+  "success": true,
+  "projectFilePath": "/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/GetTeamRatings.csproj",
+  "expectedPackageFiles": [
+    "/Users/ellismcdougald/.nuget/packages/amazon.lambda.core/2.2.0/amazon.lambda.core.2.2.0.nupkg.sha512",
+    "/Users/ellismcdougald/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.4.1/amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512",
+    "/Users/ellismcdougald/.nuget/packages/awssdk.core/3.7.304.29/awssdk.core.3.7.304.29.nupkg.sha512",
+    "/Users/ellismcdougald/.nuget/packages/awssdk.dynamodbv2/3.7.305/awssdk.dynamodbv2.3.7.305.nupkg.sha512",
+    "/Users/ellismcdougald/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/ellismcdougald/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/8.0.4/microsoft.netcore.app.runtime.linux-x64.8.0.4.nupkg.sha512",
+    "/Users/ellismcdougald/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/8.0.4/microsoft.aspnetcore.app.runtime.linux-x64.8.0.4.nupkg.sha512",
+    "/Users/ellismcdougald/.nuget/packages/microsoft.netcore.app.crossgen2.osx-arm64/8.0.4/microsoft.netcore.app.crossgen2.osx-arm64.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

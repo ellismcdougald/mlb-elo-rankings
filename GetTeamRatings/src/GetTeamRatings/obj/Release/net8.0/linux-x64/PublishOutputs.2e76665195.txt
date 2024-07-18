@@ -1,0 +1,9 @@
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/GetTeamRatings.deps.json
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/GetTeamRatings.runtimeconfig.json
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/GetTeamRatings.pdb
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/Amazon.Lambda.Core.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/Amazon.Lambda.Serialization.SystemTextJson.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/AWSSDK.Core.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/AWSSDK.DynamoDBv2.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/Newtonsoft.Json.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/GetTeamRatings/src/GetTeamRatings/lambda/GetTeamRatings.dll
