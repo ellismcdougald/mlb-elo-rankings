@@ -92,3 +92,23 @@ resource "aws_lambda_function_url" "getteamratings_lambda_url" {
     max_age           = 86400
   }
 }
+
+resource "aws_cloudwatch_event_rule" "dayhandler_rule" {
+    name = "update-team-rankings-daily"
+    description = "Runs DayHandler Lambda function each day at 10am UTC / 4am MST"
+    schedule_expression = "cron(0 10 * * ? *)"
+}
+
+resource "aws_cloudwatch_event_target" "dayhandler_target" {
+    arn = aws_lambda_function.dayhandler_lambda_func.arn
+    rule = aws_cloudwatch_event_rule.dayhandler_rule.id
+}
+
+resource "aws_lambda_permission" "allow_cloudwatch" {
+    statement_id  = "AllowExecutionFromCloudWatch"
+    action        = "lambda:InvokeFunction"
+    function_name = aws_lambda_function.dayhandler_lambda_func.function_name
+    source_arn = aws_cloudwatch_event_rule.dayhandler_rule.arn
+    principal = "events.amazonaws.com"
+    
+}
