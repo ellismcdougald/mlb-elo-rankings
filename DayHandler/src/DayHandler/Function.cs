@@ -42,7 +42,7 @@ public class Game(int pk, string date, string season, string gt, int hId, int vI
 
 public class Function
 {
-    public static async Task FunctionHandler(string input, ILambdaContext context)
+    public static async Task FunctionHandler()
     {
       HttpClient httpClient = new HttpClient();
 

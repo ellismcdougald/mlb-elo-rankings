@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DayHandler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+973cb6fa65cf6409521d079449b03db8c7a3114b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DayHandler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DayHandler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

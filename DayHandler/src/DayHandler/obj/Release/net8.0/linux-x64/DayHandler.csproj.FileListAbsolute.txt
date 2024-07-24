@@ -18,3 +18,4 @@
 /Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/obj/Release/net8.0/linux-x64/DayHandler.pdb
 /Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/obj/Release/net8.0/linux-x64/DayHandler.genruntimeconfig.cache
 /Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/obj/Release/net8.0/linux-x64/ref/DayHandler.dll
+/Users/ellismcdougald/portfolio/mlb-elo-rankings/DayHandler/src/DayHandler/obj/Release/net8.0/linux-x64/DayHandler.sourcelink.json
