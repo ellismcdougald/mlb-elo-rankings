@@ -1,0 +1,48 @@
+<div id="container">
+  <table mat-table [dataSource]="dataSource">
+    <!-- Rank Column -->
+    <ng-container matColumnDef="rank">
+      <th mat-header-cell *matHeaderCellDef>Rank</th>
+      <td mat-cell *matCellDef="let element">{{ element.rank }}</td>
+    </ng-container>
+
+    <!-- Image Column -->
+    <ng-container matColumnDef="imageUrl">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element" id="img-container">
+        <img [src]="element.imageURL" class="logoImg" />
+      </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>Team</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.cityName + " " + element.teamName }}
+      </td>
+    </ng-container>
+
+    <!-- League Column -->
+    <ng-container matColumnDef="league">
+      <th mat-header-cell *matHeaderCellDef>League</th>
+      <td mat-cell *matCellDef="let element">{{ element.league }}</td>
+    </ng-container>
+
+    <!-- Division Column -->
+    <ng-container matColumnDef="division">
+      <th mat-header-cell *matHeaderCellDef>Division</th>
+      <td mat-cell *matCellDef="let element">{{ element.division }}</td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="rating">
+      <th mat-header-cell *matHeaderCellDef>Rating</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.rating }}
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</div>

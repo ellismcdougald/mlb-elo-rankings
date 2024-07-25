@@ -1,0 +1,48 @@
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  min-width: 100%;
+  background-color: white;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-container {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mat-column-rank {
+  text-align: center;
+  width: 5%;
+}
+
+.mat-column-imageUrl {
+  width: 5%;
+}
+
+.mat-column-name {
+  width: 80%;
+}
+
+.mat-column-rating {
+  width: 10%;
+  text-align: right;
+}
+
+th {
+  font-size: 16px;
+}
+
+td {
+  font-size: 16px;
+}
