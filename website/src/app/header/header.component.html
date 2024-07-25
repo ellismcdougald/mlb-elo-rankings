@@ -1,0 +1,29 @@
+<div id="main-header">
+  <h1 id="main-title">MLB Team ELO Standings</h1>
+  <h2 id="subtitle">2024 Regular Season</h2>
+  <nav>
+    <div id="link-container">
+      <div>
+        <a
+          routerLink="/elo-table"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          [style.text-decoration]="showTable == true ? 'underline' : 'none'"
+          (click)="showTable = true"
+          >Team Rankings</a
+        >
+      </div>
+      <div id="vertical-divider"></div>
+      <div>
+        <a
+          routerLink="/how-it-works"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          [style.text-decoration]="showTable == false ? 'underline' : 'none'"
+          (click)="showTable = false"
+          >How does it work?</a
+        >
+      </div>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,32 @@
+#main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+#sub-header {
+  display: flex;
+  justify-content: center;
+}
+
+#link-container {
+  margin: 1em 0;
+  display: flex;
+  column-gap: 1em;
+}
+
+#link-container a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+#vertical-divider {
+  border-left: 2px black solid;
+}
