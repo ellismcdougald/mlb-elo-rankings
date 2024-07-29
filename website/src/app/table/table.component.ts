@@ -12,7 +12,7 @@ export interface TeamObject {
 }
 
 function compareTeams(teamA: any, teamB: any) {
-  if (teamA.rating >= teamB.rating) {
+  if (parseInt(teamA.rating) >= parseInt(teamB.rating)) {
     return -1;
   } else {
     return 1;
@@ -24,7 +24,7 @@ function compareTeams(teamA: any, teamB: any) {
   standalone: true,
   imports: [MatTableModule],
   templateUrl: './table.component.html',
-  styleUrl: './table.component.css'
+  styleUrl: './table.component.css',
 })
 export class TableComponent {
   displayedColumns: string[] = ['rank', 'imageUrl', 'name', 'rating'];
